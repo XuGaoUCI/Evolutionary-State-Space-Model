@@ -27,3 +27,6 @@ sim <- generate_time(module, sigma, tau, n_channel, n_indpt, trials, n_time, tru
 ```
 
 3. Simulations 
+[Simulation I and II](https://github.com/XuGaoUCI/Evolutionary-State-Space-Model/blob/master/Rcode_Simulation1_2_modified.R)
+[Simulation III](https://github.com/XuGaoUCI/Evolutionary-State-Space-Model/blob/master/Rcode_Simulation3.R)
+[Simulation IV](https://github.com/XuGaoUCI/Evolutionary-State-Space-Model/blob/master/Rcode_Simulation4.R)
