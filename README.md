@@ -3,7 +3,11 @@ This repository is to implement the approach in the paper ["Evolutionary State-S
 
 1. Generate AR(2) parameters corresponding to different frequency bands.
 
-```phi1 = tran_AR2(1.001, (2/1000)*2*pi)  #delta band
+```phi1 = tran_AR2(1.001, (2/1000)*2*pi)  #delta
+phi2 = tran_AR2(1.001, (6/1000)*2*pi)  #theta
+phi3 = tran_AR2(1.001, (8/1000)*2*pi) #alpha
+phi4 = tran_AR2(1.001, (15/1000)*2*pi) #beta
+phi5 = tran_AR2(1.001, (32/1000)*2*pi) #gamma 
 ```
 
 2. Generate mixtures of AR(2) time series.
